@@ -1,0 +1,30 @@
+.questions{
+    display: flex;
+    width: 100vw;
+    color: white;
+}
+.question{
+    background-color: rgb(208, 208, 208);
+    margin: 10px;
+    width: 5vw;
+    text-align: center;
+    color: white;
+    padding: 7px 15px;
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 3px black;
+}
+.question:hover{
+    background-color: rgb(178, 178, 178);
+}
+.question:hover>a{
+    color: black;
+}
+.question:active{
+    transform: scale(1.1);
+}
+.question>a{
+    text-decoration: none;
+}
+a:link{
+    color: black;
+}
